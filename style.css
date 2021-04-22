@@ -5,18 +5,26 @@
 
 body{
     font-family: sans-serif;
-    background: linear-gradient(#fff, #78abff);
+    background: White;
     min-height: 100vh;
     padding: 150px 0;
-    box-sizing: border-box;}
+    box-sizing: border-box;
+}
 .newsletter{
-    background: #0c5adb;
+    background: #ffffff;
+    box-shadow: 0px 0px 55px rgb(0, 0, 0, .15);
     margin: 0 auto;
     text-align: center;
-    max-width: 330px;
-    padding: 50px 30px;
-    border-radius: 5px;
-    color: white;
+    max-width: 550px;
+    max-height: 395px;
+    padding: 30px 30px;
+    border-radius: 25px;
+    color: rgb(65, 65, 83);
+}
+.newsletter img{
+    height: 90px;
+    margin-bottom: 10px;
+
 }
 
 .newsletter hr{
@@ -24,45 +32,50 @@ body{
     height: 3px;
     margin: 30px auto;
     border: 0;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgb(65, 65, 83, .5);
 }
 
 .newsletter p{
-    font-size: 16px;
+    width: 350px;
+    font-size: 17px;
     line-height: 24px;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgb(65, 65, 83, .5);
     margin-bottom: 30px;
+    display: inline-block;
+    text-align: center;
 }
 
 .newsletter input{
-    border-radius: 3px;
-    background-color: rgba(0,0,0,0.4);
-    width: 100%;
+    border-radius: 10px;
+    width: 350px;
     height: 55px;
-    border: 0px;
+    border: 1px solid rgb(65, 65, 83, .5);
     padding: 0 20px;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgb(65, 65, 83);;
     margin-bottom: 36px;
     outline: none;
     box-sizing: border-box;
     font-size: 16px;
 }
 ::placeholder{
-    color: rgba(255, 255, 255, 0.8);
+    color: rgb(65, 65, 83, .5);
 }
 
 .newsletter button{
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    border-radius: 3px;
-    height: 50px;
-    background-color: transparent;
+    border: 1px solid #E95A6B;
+    border-radius: 10px;
+    height: 55px;
+    background-color: #E95A6B;
     color: white;
-    padding: 0 28px;
+    padding: 0 35px;
     cursor: pointer;
     transition: 0.5s;
-    font-size: 16px;
+    font-size: 18px;
+    letter-spacing: 1.1px;
+    margin-bottom: 25px;
 }
 .newsletter button:hover{
-    background-color: #00138e;
-    border-color: #00138e;
+    background-color: #ffffff;
+    border-color: #E95A6B;
+    color: #E95A6B;
 }
